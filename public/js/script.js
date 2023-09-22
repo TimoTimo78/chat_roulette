@@ -26,5 +26,5 @@ myPeer.on("open", (id) => {
 });
 
 socket.on("user-connected", (userId) => {
-  console.log("User : " + userId + " connected");
+  console.log("userId", userId);
 });
