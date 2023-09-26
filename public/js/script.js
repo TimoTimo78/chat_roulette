@@ -28,3 +28,6 @@ myPeer.on("open", (id) => {
 socket.on("user-connected", (userId) => {
   console.log("userId", userId);
 });
+
+// Lien youtube de la vidéo
+// https://youtu.be/Z2bP7yG0hDs?si=H4gJ8kD5SipZ94-_
